@@ -1,0 +1,7 @@
+"LOCATION_PERMISSION_TITLE" = "Permission Setting for Accurate Location Information";
+"LOCATION_PERMISSION_MESSAGE" = "To fully utilize the customized information and features provided by the SMAP app, you must set the location information access permission to \"Always Allow\". \n\nYou can move to the app settings by pressing the \"Go to Settings\" button and change the location information access permission.";
+"LOCATION_PERMISSION_SETTINGS_BUTTON" = "Go to Settings";
+"LOCATION_PERMISSION_CANCEL_BUTTON" = "Cancel";
+"NSPhotoLibraryUsageDescription" = "To enjoy various features of the SMAP app, please allow access to the photo library.";
+"NSLocationWhenInUseUsageDescription" = "To use the customized services of the SMAP app, please set the location information access permission to \"While Using the App\".";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "To properly use all features of the SMAP app, please set the location information access permission to \"Always\".";

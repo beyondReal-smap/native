@@ -1,0 +1,7 @@
+"LOCATION_PERMISSION_TITLE" = "Pengaturan Izin untuk Informasi Lokasi Akurat";
+"LOCATION_PERMISSION_MESSAGE" = "Untuk memanfaatkan sepenuhnya informasi dan fitur yang disesuaikan yang disediakan oleh aplikasi SMAP, Anda harus mengatur izin akses informasi lokasi ke \"Selalu Izinkan\". \n\nAnda dapat pindah ke pengaturan aplikasi dengan menekan tombol \"Buka Pengaturan\" dan mengubah izin akses informasi lokasi.";
+"LOCATION_PERMISSION_SETTINGS_BUTTON" = "Buka Pengaturan";
+"LOCATION_PERMISSION_CANCEL_BUTTON" = "Batal";
+"NSPhotoLibraryUsageDescription" = "Untuk menikmati berbagai fitur aplikasi SMAP, izinkan akses ke perpustakaan foto.";
+"NSLocationWhenInUseUsageDescription" = "Untuk menggunakan layanan yang disesuaikan dari aplikasi SMAP, atur izin akses informasi lokasi ke \"Saat Menggunakan Aplikasi\".";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Untuk menggunakan semua fitur aplikasi SMAP dengan benar, atur izin akses informasi lokasi ke \"Selalu\".";

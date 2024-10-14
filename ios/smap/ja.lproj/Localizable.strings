@@ -1,0 +1,7 @@
+"LOCATION_PERMISSION_TITLE" = "正確な位置情報を提供するための権限設定";
+"LOCATION_PERMISSION_MESSAGE" = "SMAPアプリが提供するカスタマイズ情報や機能を最大限に活用するには、位置情報アクセス権限を「常に許可」に設定する必要があります。\n\n「設定へ」ボタンを押してアプリの設定に移動し、位置情報アクセス権限を変更できます。";
+"LOCATION_PERMISSION_SETTINGS_BUTTON" = "設定へ";
+"LOCATION_PERMISSION_CANCEL_BUTTON" = "キャンセル";
+"NSPhotoLibraryUsageDescription" = "SMAPアプリの様々な機能を楽しむには、写真ライブラリへのアクセスを許可してください。";
+"NSLocationWhenInUseUsageDescription" = "SMAPアプリのカスタマイズサービスを利用するには、位置情報アクセス権限を「アプリ使用中」に設定してください。";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "SMAPアプリのすべての機能を適切に使用するには、位置情報アクセス権限を「常に」に設定してください。";

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.7</string>
+
+    <key>CFBundleVersion</key>
+    <string>39</string>
+
+    <key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.dmonster.smap</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>smapapp</string>
+			</array>
+		</dict>
+	</array>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>FirebaseScreenReportingEnabled</key>
+	<false/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-7432142706137657~4060543559</string>
+
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>es</string>
+		<string>hi</string>
+		<string>id</string>
+		<string>ja</string>
+		<string>th</string>
+		<string>vi</string>
+		<string>ms</string>
+	</array>
+
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>${NSLocationAlwaysAndWhenInUseUsageDescription}</string>
+    
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>${NSLocationWhenInUseUsageDescription}</string>
+    
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>${NSPhotoLibraryUsageDescription}</string>
+
+	<key>NSMotionUsageDescription</key>
+	<string>${NSMotionUsageDescription}</string>
+
+	
+</dict>
+</plist>

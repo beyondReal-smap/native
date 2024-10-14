@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/noti_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:ellipsize="end"
+        style="@style/TextAppearance.Compat.Notification.Title"/>
+
+    <TextView
+        android:id="@+id/noti_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:lines="1"
+        android:ellipsize="end"
+        style="@style/TextAppearance.Compat.Notification.Info"/>
+
+    <ImageView
+        android:id="@+id/noti_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="200dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+</LinearLayout>
