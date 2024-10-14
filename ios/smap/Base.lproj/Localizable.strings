@@ -2,6 +2,14 @@
 "LOCATION_PERMISSION_MESSAGE" = "SMAP 앱이 제공하는 맞춤형 정보 및 기능을 최대한 활용하려면 위치 정보 접근 권한을 \"항상 허용\"으로 설정해야 합니다. \n\n\"설정으로\" 버튼을 눌러 앱 설정으로 이동한 후 위치 정보 접근 권한을 변경할 수 있습니다.";
 "LOCATION_PERMISSION_SETTINGS_BUTTON" = "설정으로";
 "LOCATION_PERMISSION_CANCEL_BUTTON" = "취소";
-"NSPhotoLibraryUsageDescription" = "SMAP 앱의 다양한 기능을 즐기려면 사진 라이브러리 접근 권한을 허용해 주세요.";
-"NSLocationWhenInUseUsageDescription" = "SMAP 앱의 맞춤형 서비스를 이용하려면 위치 정보 접근 권한을 \"사용 중\"으로 설정해 주세요.";
-"NSLocationAlwaysAndWhenInUseUsageDescription" = "SMAP 앱의 모든 기능을 제대로 이용하려면 위치 정보 접근 권한을 \"항상\"으로 설정해 주세요.";
+"IMAGE_LOAD_FAIL_MESSAGE" = "이미지 정보를 가져오는데 실패했습니다.";
+"CLIPBOARD_COPIED_MESSAGE" = "클립보드에 복사 되었습니다.";
+"ALERT_OK_BUTTON" = "확인";
+"ALERT_CANCEL_BUTTON" = "취소";
+"NSPhotoLibraryUsageDescription" = "SMAP 앱의 다양한 기능을 즐기려면 사진 라이브러리 접근 권한이 필요해요.";
+"NSLocationWhenInUseUsageDescription" = "내 위치 확인과 그룹원들과의 위치 공유를 위해 위치 정보 권한을 \"사용 중 허용\"으로 설정해 주세요.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "내 위치 확인과 그룹원들과의 위치 공유를 위해 위치 정보 권한을 \"항상 허용\"으로 설정해 주세요.";
+"NSCameraUsageDescription" = "프로필 이미지를 업로드하려면 카메라 접근 권한이 필요해요.";
+"NSLocationAlwaysUsageDescription" = "내 위치 확인과 그룹원들과의 위치 공유를 위해 해당 권한이 필요해요.";
+"NSMicrophoneUsageDescription" = "사진 촬영을 위해 마이크 접근 권한이 필요해요.";
+"NSMotionUsageDescription" = "내 걸음 수를 확인하려면 위치 접근 권한이 필요해요.";

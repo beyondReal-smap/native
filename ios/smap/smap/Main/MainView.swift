@@ -322,13 +322,13 @@ class MainView: UIViewController {
                 }
             }
         } else {
-            Utils.shared.showSnackBar(view: self.view, message: "Error - 이미지 정보를 가져오는데 실패했습니다.")
+            Utils.shared.showSnackBar(view: self.view, message: NSLocalizedString("IMAGE_LOAD_FAIL_MESSAGE", comment: ""))
         }
     }
     
     private func urlClipBoard(url: String){
         UIPasteboard.general.string = url
-        Utils.shared.showSnackBar(view: self.view, message: "클립보드에 복사 되었습니다.")
+        Utils.shared.showSnackBar(view: self.view, message: NSLocalizedString("CLIPBOARD_COPIED_MESSAGE", comment: ""))
     }
     
     private func urlOpenSms(url: String) {
@@ -429,7 +429,7 @@ extension MainView: WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
         print("message : ",message)
         
         let alertController = UIAlertController(title: "", message: message, preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "확인", style: .default, handler: { (action) in
+        alertController.addAction(UIAlertAction(title: NSLocalizedString("ALERT_OK_BUTTON", comment: ""), style: .default, handler: { (action) in
             completionHandler()
         }))
         
@@ -442,10 +442,10 @@ extension MainView: WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
         print("message : ",message)
         
         let alertController = UIAlertController(title: "", message: message, preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "확인", style: .default, handler: { (action) in
+        alertController.addAction(UIAlertAction(title: NSLocalizedString("ALERT_OK_BUTTON", comment: ""), style: .default, handler: { (action) in
             completionHandler(true)
         }))
-        alertController.addAction(UIAlertAction(title: "취소", style: .default, handler: { (action) in
+        alertController.addAction(UIAlertAction(title: NSLocalizedString("ALERT_CANCEL_BUTTON", comment: ""), style: .default, handler: { (action) in
             completionHandler(false)
         }))
         
@@ -458,7 +458,7 @@ extension MainView: WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
         alertController.addTextField { (textField) in
             textField.text = defaultText
         }
-        alertController.addAction(UIAlertAction(title: "확인", style: .default, handler: { (action) in
+        alertController.addAction(UIAlertAction(title: NSLocalizedString("ALERT_OK_BUTTON", comment: ""), style: .default, handler: { (action) in
             if let text = alertController.textFields?.first?.text {
                 completionHandler(text)
             } else {
@@ -466,7 +466,7 @@ extension MainView: WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
             }
         }))
         
-        alertController.addAction(UIAlertAction(title: "취소", style: .default, handler: { (action) in
+        alertController.addAction(UIAlertAction(title: NSLocalizedString("ALERT_CANCEL_BUTTON", comment: ""), style: .default, handler: { (action) in
             completionHandler(nil)
         }))
         
@@ -732,7 +732,7 @@ extension MainView: MFMessageComposeViewControllerDelegate {
 
 extension MainView: YPImagePickerDelegate {
     func imagePickerHasNoItemsInLibrary(_ picker: YPImagePicker) {
-        Utils.shared.showSnackBar(view: self.view, message: "가져올 수 있는 사진이 없습니다.")
+        Utils.shared.showSnackBar(view: self.view, message: NSLocalizedString("IMAGE_LOAD_FAIL_MESSAGE", comment: ""))
     }
 
     func shouldAddToSelection(indexPath: IndexPath, numSelections: Int) -> Bool {

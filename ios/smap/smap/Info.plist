@@ -63,6 +63,13 @@
 	<key>NSMotionUsageDescription</key>
 	<string>${NSMotionUsageDescription}</string>
 
-	
+	<key>NSCameraUsageDescription</key>
+	<string>${NSCameraUsageDescription}</string>
+
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>${NSLocationAlwaysUsageDescription}</string>
+
+	<key>NSMicrophoneUsageDescription</key>
+	<string>${NSMicrophoneUsageDescription}</string>
 </dict>
 </plist>
