@@ -1,0 +1,15 @@
+"LOCATION_PERMISSION_TITLE" = "Tetapkan kebenaran untuk memberikan maklumat lokasi yang tepat";
+"LOCATION_PERMISSION_MESSAGE" = "Untuk sepenuhnya memanfaatkan maklumat dan ciri-ciri tersuai yang disediakan oleh aplikasi SMAP, anda perlu menetapkan kebenaran lokasi kepada \"Sentiasa Benarkan\". \n\nTap butang \"Pergi ke Tetapan\" untuk menavigasi ke tetapan aplikasi dan menukar kebenaran lokasi.";
+"LOCATION_PERMISSION_SETTINGS_BUTTON" = "Pergi ke Tetapan";
+"LOCATION_PERMISSION_CANCEL_BUTTON" = "Batal";
+"IMAGE_LOAD_FAIL_MESSAGE" = "Gagal memuatkan maklumat imej.";
+"CLIPBOARD_COPIED_MESSAGE" = "Disalin ke papan keratan.";
+"ALERT_OK_BUTTON" = "OK";
+"ALERT_CANCEL_BUTTON" = "Batal";
+"NSPhotoLibraryUsageDescription" = "Aplikasi SMAP memerlukan akses ke perpustakaan foto anda untuk menikmati pelbagai ciri.";
+"NSLocationWhenInUseUsageDescription" = "Sila tetapkan kebenaran lokasi kepada \"Benarkan Semasa Menggunakan\" untuk mengesahkan lokasi anda dan berkongsinya dengan ahli kumpulan.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Sila tetapkan kebenaran lokasi kepada \"Sentiasa Benarkan\" untuk mengesahkan lokasi anda dan berkongsinya dengan ahli kumpulan.";
+"NSCameraUsageDescription" = "Aplikasi memerlukan akses kamera untuk memuat naik gambar profil.";
+"NSLocationAlwaysUsageDescription" = "Aplikasi memerlukan kebenaran ini untuk mengesahkan lokasi anda dan berkongsinya dengan ahli kumpulan.";
+"NSMicrophoneUsageDescription" = "Aplikasi memerlukan akses mikrofon untuk mengambil gambar.";
+"NSMotionUsageDescription" = "Aplikasi memerlukan akses lokasi untuk menjejak kiraan langkah anda.";
